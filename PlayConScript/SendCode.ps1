@@ -99,7 +99,7 @@ try
             $emailbody = $emailbody.Replace('{1}',$code)
 
             Write-Host "Send code to" $u.UserPrincipalName
-            Send-MailMessage -Encoding:Unicode -From:"Webmaster@U-BTech.com" -Body:$emailbody -BodyAsHtml:$true -To:@("moti@u-btech.com") -SmtpServer:"smtp.office365.com" -Subject:"קוד קופון מתנה" -Priority:High -UseSsl:$true -Port:587 -Credential:$credentials;
+            Send-MailMessage -Encoding:Unicode -From:"Webmaster@U-BTech.com" -Body:$emailbody -BodyAsHtml:$true -To:@($u.UserPrincipalName) -SmtpServer:"smtp.office365.com" -Subject:"קוד קופון מתנה" -Priority:High -UseSsl:$true -Port:587 -Credential:$credentials;
 
             # Remove the code from memory.
             $codesProcessed.Remove($code) | Out-Null;
@@ -130,5 +130,5 @@ catch
     Write-Host $errorMessage
     
     # send email on error
-    Send-MailMessage -Encoding:Unicode -From:"Webmaster@U-BTech.com" -Body:$emailbody -BodyAsHtml:$true -To:@("moti@u-btech.com") -SmtpServer:"smtp.office365.com" -Subject:"code test" -Priority:High -UseSsl:$true -Port:587 -Credential:$credentials;
+    Send-MailMessage -Encoding:Unicode -From:"Webmaster@U-BTech.com" -Body:$errorMessage -BodyAsHtml:$true -To:@("Dev@U-BTech.com, Support@U-BTech.com") -SmtpServer:"smtp.office365.com" -Subject:"Send Code Error" -Priority:High -UseSsl:$true -Port:587 -Credential:$credentials;
 }

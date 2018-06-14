@@ -19,6 +19,7 @@ Param(
   [Parameter(Mandatory=$True,HelpMessage="Db name to restore",Position=3)]
   [string]$DbName,
 
+  # parameter to to Configure PIT to restore
   [Parameter(Mandatory=$true, HelpMessage="Date to restore, format:i.e dd/mm/yyyy",position=4)]
   [DateTime]$DateToRestore,
 
@@ -28,9 +29,11 @@ Param(
   [Parameter(Mandatory=$true, HelpMessage="specify minutes to restore format:i.e for 13:25:00 insert 25", position=6)] 
   [string]$MinutesToRestore,
 
+  # param where RG to create DB
   [Parameter(Mandatory=$true, HelpMessage="Resource group to create DB", position=7)]
   [string]$ResourceToRestore,
 
+  # name for new DB 
   [Parameter(Mandatory=$true, HelpMessage="Name for new DB", position=8)]
   [string]$NewDbName
 
@@ -40,6 +43,7 @@ Param(
 
     try
         {
+
         #add hourse to date
         $DateToRestore = $DateToRestore.AddHours($HourseToRestore);
 

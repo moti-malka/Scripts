@@ -1,0 +1,15 @@
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\Microsoft.IdentityModel.Extensions.dll
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\Microsoft.Exchange.WebServices.pdb
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\Microsoft.Exchange.WebServices.Auth.pdb
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\bin\Debug\Microsoft.Exchange.WebServices.Auth.xml
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\obj\Debug\AutoPrintMail.csproj.CoreCompileInputs.cache
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\obj\Debug\AutoPrintMail.csproj.CopyComplete
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Moti\OneDrive - U-BTech Solutions LTD\Git\ReleaeScripts\C#\ConsoleApp1\obj\Debug\AutoPrintMail.csprojResolveAssemblyReference.cache

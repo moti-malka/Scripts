@@ -25,7 +25,7 @@ $azurePassword = ConvertTo-SecureString "Aa0505758244" -AsPlainText -Force
 
 $psCred = New-Object System.Management.Automation.PSCredential($azureAccountName, $azurePassword)
 
-Login-AzureRmAccount -Credential $psCred
+Login-AzureRmAccount -Subscription -Credential $psCred
 
 
 # Get Sub Info and select Subscription
